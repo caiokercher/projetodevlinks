@@ -18,4 +18,12 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assets/avatar.png")
   }
+
+  const a = document.querySelector("#profile a")
+
+  if (html.classList.contains("light")) {
+    a.setAttribute("href", "https://instagram.com/caiokercher")
+  } else {
+    a.setAttribute("href", "https://instagram.com/privs_kercher")
+  }
 }
