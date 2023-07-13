@@ -26,4 +26,6 @@ function toggleMode() {
   } else {
     a.setAttribute("href", "https://instagram.com/privs_kercher")
   }
+
+  
 }
